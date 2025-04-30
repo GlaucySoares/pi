@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(237, 241, 209);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+ 
+.bg-white {
+    color: #ffffff;
+}
+ 
+.bg-transition {
+    background-color: #146368;
+}
+ 
+.carousel {
+    width: 40%;
+    height: 40%;
+}
+ 
+.imagem {
+    position: absolute;
+    top: 15px; /* Ajuste conforme necessário */
+    left: 20px; /* Ajuste para alinhar à esquerda ou ao centro */
+    width: 80px;
+    height: 80px;
+    z-index: 110; /* Garante que a imagem fique sobre a navbar */
+    border: solid white;
+}
+ 
+.navbar {
+    position: relative; /* Garante que a imagem se posicione em relação a ela */
+    z-index: 1;
+}
+ 
+.dropdown-toggle {
+    margin-left: 100px;
+}
+ 
+ 
+.btn-outline-success {
+    border: solid white;
+}
+
+.tabela-centralizada {    /*Centraliozação da tabela */
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-left: 1%; 
+    transform: scale(2.0); /* aumenta 1.5x o tamanho original */
+    transform-origin: top center; /* opcional: onde começa o zoom */
+    font-size: 13px; /* Ajuste para o tamanho desejado */
+}
+
+.linha-superior {
+    width: 1000px;      /* mesma largura da tabela */
+    height: 60px;       /* altura do retângulo fino */
+    background-color: #146368; 
+    margin: 30px auto 10px auto; /* centraliza e dá espaço */
+    margin-left: 8.5%; 
+}
